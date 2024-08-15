@@ -33,16 +33,35 @@ xr関連の色々なものを置く場所
 | モディファイア適用 | モディファイア上で`Crrl + A` |
 | 選択中のメッシュ以外非表示 | オブジェクトを選択して`Shift + H`。表示は`Alt + H` |
 | 辺や面の分割 | `Alt + M` |
+| 辺の頂点追加 | 右クリック -> 細分化 |
 | 3Dカーソルを座標原点へ移動 | `Shift + C` |
+| 繰り返し | `Shift + R` |
+| 平行投影 <-> 透視投影 | `Num_5` |
+| 重複頂点の結合 | 編集モードで`M` -> remove doubles |
+| クリース掛ける | 編集モードで`Shift + E` -> ドラッグ |
+| 辺のメニュー | `Crtl + E` |
+| 法線のメニュー | `Alt + N` |
+| 面の法線方向を反転 | 法線メニューのFlip |
+
 
 ## カーソルに関する情報
 
 + [Blenderのオブジェクトの概念（3Dカーソル・原点・ピボットポイント）を見てみよう](https://gihyo.jp/article/2023/03/blender-basics-06)
 
+法線方向の移動はギズモ(?)使う
+
+![img](./img/normal_move.png)
+
 ## メッシュに関する情報
 
 + 球体の面分割は4の倍数
 + ベベルに関しては奇数差し込み
+
+面の作成は[F2](https://saru-blender.com/fill)を使ったりする
+
+面の法線方向確認はFace Orientation使う
+
+![face orientation](./img/normal_orientation.png)
 
 ## UV展開に関する情報
 
@@ -83,3 +102,6 @@ Ctrl + E -> Bridge Edge Loop
 ![bridge_edge_loop](./img/bridge_edge_loop.png)
 
 
+# キャラクタモデリング
+
++ [Blenderでキャラクターモデル制作！01 | 顔のモデリング（前編）〜初級から中級者向けチュートリアル〜](https://youtu.be/pk8POJpBkVs?si=3Kx54Zfmz_CR6lve)
