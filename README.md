@@ -2,7 +2,21 @@
 
 xr関連の色々なものを置く場所
 
-# ワールド用のモデリング
+# Cluster
+
+## [WorkShop - アーカイブコンテンツ](https://www.workshop.cluster.mu/beginner)
+
+| title | status | leaning | 
+| :---- | :----- | :----- |
+| 自分の部屋を作ろう！#1 | complete | |
+| 自分の部屋を作ろう！#2 | complete | |
+| 自分の部屋を作ろう！#3 | complete | pixel lightは2つまで。directional lightをのぞくと1つだけ。 |
+| 自分の部屋を作ろう！#4 | complete | |
+| 自分の部屋を作ろう！#5 | progress | Ridable Item, Mixamo |
+
+# モデリング
+
+## ざっくりとした流れ
 
 + 形を作る
   + メッシュをいじって作りたいものの形を整える
@@ -19,9 +33,9 @@ xr関連の色々なものを置く場所
 + Unityに取り込む
   + FBXのディレクトリごと取り込んで配置
 
-# 技術メモ
+## 技術メモ
 
-## ちょろいやつ
+### ちょろいやつ
 
 | やること | 操作 |
 | :----- | :----- |
@@ -46,7 +60,7 @@ xr関連の色々なものを置く場所
 | 法線にそって拡大縮小 | `Alt + S` |
 
 
-## カーソルに関する情報
+### カーソルに関する情報
 
 + [Blenderのオブジェクトの概念（3Dカーソル・原点・ピボットポイント）を見てみよう](https://gihyo.jp/article/2023/03/blender-basics-06)
 
@@ -54,7 +68,7 @@ xr関連の色々なものを置く場所
 
 ![img](./img/normal_move.png)
 
-## メッシュに関する情報
+### メッシュに関する情報
 
 + 球体の面分割は4の倍数
 + ベベルに関しては奇数差し込み
@@ -65,12 +79,12 @@ xr関連の色々なものを置く場所
 
 ![face orientation](./img/normal_orientation.png)
 
-## UV展開に関する情報
+### UV展開に関する情報
 
 
  + [【完全版】blender初心者はコレさえ見ればUV展開できます【お題：フグ】](https://youtu.be/mFJNdIKApPc?si=1c74L4tA2yzt3NAO)
 
-## テクスチャに関する情報源
+### テクスチャに関する情報源
 
 | 種類 | 概要 |
 | :----- | :----- |
@@ -83,13 +97,14 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 
 ![texture_01](./img/texture_01.png)
 
++ [Poly Heaven](https://polyhaven.com/)
 + [実は簡単！テクスチャでリアルな質感を作る方法【Blender】](https://youtu.be/K1MMnQjvzZ8?si=0IOpBbRIHsu0aba3)
 
-## SVG取り込み & 実体化
+### SVG取り込み & 実体化
 
 [IllustratorのパスをBlenderで立体化する](https://styly.cc/ja/tips/jp-illustrator-to-blender/)
 
-## プレーンを貼り付ける
+### プレーンを貼り付ける
 
 Modifier -> Shrinkwrapを利用する。
 
@@ -97,7 +112,7 @@ Modifier -> Shrinkwrapを利用する。
 
 [【Blenderチュートリアル】ステッカーの貼り方 曲面、球、角にも対応！](https://youtu.be/PG7zuOHJUS4?si=RKcdE839pjp0JSsL)
 
-## ループ同士に面を張る
+### ループ同士に面を張る
 
 Ctrl + E -> Bridge Edge Loop
 
