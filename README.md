@@ -18,7 +18,7 @@ xr関連の色々なものを置く場所
 | [自分の島を作ろう！ #3](https://youtu.be/8gTQ2j0u-xM?si=paz3ws8l13r04m3B) | complete | [BOOTH](https://booth.pm/ja)からの素材導入、PrefabのUnity Package化 |
 | [自分の島を作ろう！#4](https://youtu.be/l0_YT53d-Ho?si=K3vSmhFYSXDTBvvO) | complete | stats -> Audio.levelを見ながらBGM調整(-50dbぐらい)。On Join Player Trigger |
 | [自分の島を作ろう #5](https://youtu.be/UDYKYPnJe14?si=QaSZWvH0boBqQTPW) | complete | grabbable item, on release item trigger, add instant force, item logic, use item trigger, grab point |
-| [自分の島を作ろう！#6](https://youtu.be/VFXEnfMT98s?si=o_S4tgKiGK_hLXBb) | progress | |
+| [自分の島を作ろう！#6](https://youtu.be/VFXEnfMT98s?si=o_S4tgKiGK_hLXBb) | complete | Animationの使い方 |
 
 # モデリング
 
