@@ -12,7 +12,11 @@ xr関連の色々なものを置く場所
 | 自分の部屋を作ろう！#2 | complete | |
 | 自分の部屋を作ろう！#3 | complete | pixel lightは2つまで。directional lightをのぞくと1つだけ。 |
 | 自分の部屋を作ろう！#4 | complete | |
-| 自分の部屋を作ろう！#5 | progress | Ridable Item, Mixamo |
+| 自分の部屋を作ろう！#5 | complete | Ridable Item, Mixamo |
+| 自分の島を作ろう！ #1 | complete | |
+| 自分の島を作ろう！ #2 | complete | Terrainの使い方(ぼこぼこにする、木や草をはやす) |
+| [自分の島を作ろう！ #3](https://youtu.be/8gTQ2j0u-xM?si=paz3ws8l13r04m3B) | complete | [BOOTH](https://booth.pm/ja)からの素材導入、PrefabのUnity Package化 |
+| [自分の島を作ろう！#4](https://youtu.be/l0_YT53d-Ho?si=K3vSmhFYSXDTBvvO) | progress | stats -> Audio.levelを見ながらBGM調整(-50dbぐらい)。On Join Player Trigger |
 
 # モデリング
 
@@ -99,6 +103,7 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 
 + [Poly Heaven](https://polyhaven.com/)
 + [実は簡単！テクスチャでリアルな質感を作る方法【Blender】](https://youtu.be/K1MMnQjvzZ8?si=0IOpBbRIHsu0aba3)
++ [BlenderでマテリアルをテクスチャにベイクしてUnityにインポート](https://youtu.be/dtdGN9v2l_I?si=i38TP3oiPYud9tSt)
 
 ### SVG取り込み & 実体化
 
@@ -122,3 +127,15 @@ Ctrl + E -> Bridge Edge Loop
 # キャラクタモデリング
 
 + [Blenderでキャラクターモデル制作！01 | 顔のモデリング（前編）〜初級から中級者向けチュートリアル〜](https://youtu.be/pk8POJpBkVs?si=3Kx54Zfmz_CR6lve)
+
+# 参考サイト
+
+
+効果音
+
++ [OtoLogic](https://otologic.jp/free/se/doorbell01.html)
++ [効果音ラボ](https://soundeffect-lab.info/)
+
+BGM
+
++ [DOAV- SYNDROME](https://dova-s.jp/se/play1337.html)
