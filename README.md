@@ -19,6 +19,31 @@ xr関連の色々なものを置く場所
 | [自分の島を作ろう！#4](https://youtu.be/l0_YT53d-Ho?si=K3vSmhFYSXDTBvvO) | complete | stats -> Audio.levelを見ながらBGM調整(-50dbぐらい)。On Join Player Trigger |
 | [自分の島を作ろう #5](https://youtu.be/UDYKYPnJe14?si=QaSZWvH0boBqQTPW) | complete | grabbable item, on release item trigger, add instant force, item logic, use item trigger, grab point |
 | [自分の島を作ろう！#6](https://youtu.be/VFXEnfMT98s?si=o_S4tgKiGK_hLXBb) | complete | Animationの使い方 |
+| [ゲームを作ろう！ #1](https://www.youtube.com/live/NVzIqM1Oabo?si=oW5pe8bTnH1ZKUdv) | complete | |
+| [ゲームを作ろう！ #2](https://www.youtube.com/live/SQEHSCBUAOM?si=MuTxML94MGz0LJeP) | progress | Interact Item Trigger , Create Item Gimmick |
+
+component - trigger
+
+| name | description |
+| :----- | :----- |
+| On Create Item Trigger | アイテム作られたときに発火 |
+| On Release Item Trigger | アイテムを離したときに発火 |
+| Interact Item Trigger | |
+| On Collide Item Trigger | アイテムが何かにぶつかったときに発火 |
+
+component - gimmick 
+
+| name | description |
+| :----- | :----- |
+| Destory Item Gimmick | アイテムを削除する。他のイベントと連動させて利用する。 |
+| Create Item Gimmick | アイテムを作成する。Destory Item Gimmickと併せて利用する。 |
+
+component - effect
+
+| name | description |
+| :----- | :----- |
+| Add Instatn Force Item | アイテムに力を加える。他のイベントと連動させて利用する。 |
+| Grabbable Item | 持てるようになる |
 
 # モデリング
 
