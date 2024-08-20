@@ -21,6 +21,7 @@ xr関連の色々なものを置く場所
 | [自分の島を作ろう！#6](https://youtu.be/VFXEnfMT98s?si=o_S4tgKiGK_hLXBb) | complete | Animationの使い方 |
 | [ゲームを作ろう！ #1](https://www.youtube.com/live/NVzIqM1Oabo?si=oW5pe8bTnH1ZKUdv) | complete | |
 | [ゲームを作ろう！ #2](https://www.youtube.com/live/SQEHSCBUAOM?si=MuTxML94MGz0LJeP) | progress | Interact Item Trigger , Create Item Gimmick |
+| [ゲームを作ろう！ #3](https://www.youtube.com/live/zbhGqFSesCA?si=_0P7KhpJE_rGu-Fh) | |
 
 component - trigger
 
@@ -98,6 +99,10 @@ component - effect
 法線方向の移動はギズモ(?)使う
 
 ![img](./img/normal_move.png)
+
+3Dカーソルの表示/非表示
+
+![img](./img/hidding_3d_cursor.png)
 
 ### メッシュに関する情報
 
