@@ -81,6 +81,7 @@ component - effect
 | 辺や面の分割 | `Alt + M` |
 | 辺の頂点追加 | 右クリック -> 細分化 |
 | 3Dカーソルを座標原点へ移動 | `Shift + C` |
+| 3Dカーソルを選択物へ移動 | `Shift + S` |
 | 繰り返し | `Shift + R` |
 | 平行投影 <-> 透視投影 | `Num_5` |
 | 重複頂点の結合 | 編集モードで`M` -> remove doubles |
@@ -114,6 +115,15 @@ component - effect
 面の法線方向確認はFace Orientation使う
 
 ![face orientation](./img/normal_orientation.png)
+
+Force Fieldはメッシュと同様に`Shift + A`から追加
+
+![img](./img/force_field_new.png)
+
+Force Fieldのプロパティはここ
+
+![img](./img/force_field_properties.png)
+
 
 ### UV展開に関する情報
 
@@ -155,13 +165,68 @@ Ctrl + E -> Bridge Edge Loop
 
 ![bridge_edge_loop](./img/bridge_edge_loop.png)
 
+### Modifier - Displacement
+
+テクスチャに併せて凹凸をつける。テクスチャのDisplacementと同様。
+
+![img](./img/modifier_displacement.png)
+
+CoodinateをObjectにすると指定したオブジェクトに併せて凹凸が変わる。
+
+![img](./img/modifier_displacement_02.png)
+
+
+### Modifier - Simple Deform
+
+どこかを起点にメッシュを曲げたりするモディファイア
+
+![img](./img/simple_deform.png)
+
++ [Flipping Pages: Animation In Blender | Easy Step By Step Tutorial | Books | Magazines | Diaries etc.](https://youtu.be/ijRabIP8GnA?si=X9UIadab_uEo4uIK)
++ [【初心者でも出来る】本のモデリングとアニメーション！Blender2.93](https://youtu.be/zSb-xo7hfDY?si=iOzSj3Ee_Qbe67kQ)
+
+### Object Constraint - Pivot
+
+回転の軸に制約をつける
+
+![img](./img/object_constraint_pivot.png)
+
++ [【初心者でも出来る】本のモデリングとアニメーション！Blender2.93](https://youtu.be/zSb-xo7hfDY?si=zFMwFMy4qmLiFPmF)
+
+### Object Constraint - Copy Rotation
+
+回転の状態を別のオブジェクトから引き継ぐ
+
+### Object Constraint - Limit Rotation
+
+回転角に制限をつける
+
+### Particle - new
+
+このアイコン
+
+![img](./img/particle_new.png)
 
 # キャラクタモデリング
 
 + [Blenderでキャラクターモデル制作！01 | 顔のモデリング（前編）〜初級から中級者向けチュートリアル〜](https://youtu.be/pk8POJpBkVs?si=3Kx54Zfmz_CR6lve)
 
+## 炎
+
+リアルな炎はFLUID
+
+Shader設定
+
+![img](./img/fire_shader.png)
+
++ [【質問に答える】パーティクルで炎を作る【blender2.82】](https://youtu.be/430Ap8sbpYY?si=MN2-GLNVi028IkhJ)
+
+
 # 参考サイト
 
+特訓
+
++ [【blender 初心者】本の作り方を解説！](https://youtu.be/vPIiN_tk3Ck?si=ZPFrvMjAK8sxRkQU)
 
 効果音
 
