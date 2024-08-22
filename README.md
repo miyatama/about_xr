@@ -91,6 +91,7 @@ component - effect
 | 面の法線方向を反転 | 法線メニューのFlip |
 | メッシュ透過 | `Alt + Z` |
 | 法線にそって拡大縮小 | `Alt + S` |
+| XYZの軸に沿って拡大縮小 | `S -> Z -> 0` |
 
 
 ### カーソルに関する情報
@@ -125,7 +126,15 @@ Force Fieldのプロパティはここ
 ![img](./img/force_field_properties.png)
 
 
+空洞を作りたいときは、2面を選択 -> 差し込み -> 右クリックからBridge Face
+
+![img](./img/mesh_bridge_faces.png)
+
 ### UV展開に関する情報
+
+割り当て方向の反転は`S -> X -> -1` or `S -> Y -> -1`などでできる
+
+![img](./img/uv_flip.png)
 
 
  + [【完全版】blender初心者はコレさえ見ればUV展開できます【お題：フグ】](https://youtu.be/mFJNdIKApPc?si=1c74L4tA2yzt3NAO)
@@ -184,6 +193,30 @@ CoodinateをObjectにすると指定したオブジェクトに併せて凹凸�
 
 + [Flipping Pages: Animation In Blender | Easy Step By Step Tutorial | Books | Magazines | Diaries etc.](https://youtu.be/ijRabIP8GnA?si=X9UIadab_uEo4uIK)
 + [【初心者でも出来る】本のモデリングとアニメーション！Blender2.93](https://youtu.be/zSb-xo7hfDY?si=iOzSj3Ee_Qbe67kQ)
+
+### Modifier - Array
+
+階段作るときに利用する。
+
+![img](./img/modifier_array.png)
+
+relative offseet
+
+![img](./img/modifier_array_relative_offset.png)
+
+constraint offset
+
+![img](./img/modifier_array_constraint_offset.png)
+
++ [Array（配列複製）モディファイア解説＆螺旋階段の作り方【blender2.9】](https://youtu.be/-_kqGQMDiNw?si=3pYhN417Cpsi5Mcz)
+
+### Modifier - Deform
+
+Curveを指定するとメッシュを沿わせられる。下記例はArrayとの組み合わせ。
+
+![img](./img/modifier_deform_curve.png)
+
++ [Array（配列複製）モディファイア解説＆螺旋階段の作り方【blender2.9】](https://youtu.be/-_kqGQMDiNw?si=3pYhN417Cpsi5Mcz)
 
 ### Object Constraint - Pivot
 
