@@ -241,6 +241,15 @@ Curveを指定するとメッシュを沿わせられる。下記例はArrayと�
 
 ![img](./img/particle_new.png)
 
+## 謎
+
+特訓とかで触ったけど、なんねこれ状態の奴
+
+### Render - View Transform
+
+![img](./img/render_view_transform.png)
+
+
 # キャラクタモデリング
 
 + [Blenderでキャラクターモデル制作！01 | 顔のモデリング（前編）〜初級から中級者向けチュートリアル〜](https://youtu.be/pk8POJpBkVs?si=3Kx54Zfmz_CR6lve)
