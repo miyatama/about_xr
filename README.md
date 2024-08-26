@@ -107,6 +107,19 @@ component - effect
 
 ![img](./img/hidding_3d_cursor.png)
 
+範囲カーソルなどの切り替えは`w`
+
+![img](./img/cursor_type_change.png)
+
+
+### 下絵に関する情報
+
+Image -> Referenceで追加
+
+透過の指定はここ
+
+![img](./img/sketch_opacity.png)
+
 ### メッシュに関する情報
 
 + 球体の面分割は4の倍数
