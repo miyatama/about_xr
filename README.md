@@ -170,6 +170,17 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 + [実は簡単！テクスチャでリアルな質感を作る方法【Blender】](https://youtu.be/K1MMnQjvzZ8?si=0IOpBbRIHsu0aba3)
 + [BlenderでマテリアルをテクスチャにベイクしてUnityにインポート](https://youtu.be/dtdGN9v2l_I?si=i38TP3oiPYud9tSt)
 
+
+### ボーンに関する情報
+
+ウェイトの確認
+
+![img](./img/born_weight.png)
+
+ポーズモードの切り替えはボーンを選択してから変更可能となる
+
+![img](./img/pose_mode.png)
+
 ### SVG取り込み & 実体化
 
 [IllustratorのパスをBlenderで立体化する](https://styly.cc/ja/tips/jp-illustrator-to-blender/)
