@@ -173,6 +173,10 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 
 ### ボーンに関する情報
 
+ボーンの方向変更
+
+![img](./img/born_axis_change.png)
+
 ウェイトの確認
 
 ![img](./img/born_weight.png)
@@ -180,6 +184,11 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 ポーズモードの切り替えはボーンを選択してから変更可能となる
 
 ![img](./img/pose_mode.png)
+
+ボーン同士の制約はここから
+
+![img](./img/born_constraint.png)
+
 
 ### SVG取り込み & 実体化
 
