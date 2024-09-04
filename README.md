@@ -189,6 +189,9 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 
 ![img](./img/born_constraint.png)
 
+押し出し方向によってはアーマチュアのローカル座標方向が変わるので要注意
+
+![img](./img/born_exclude_attension.png)
 
 ### SVG取り込み & 実体化
 
