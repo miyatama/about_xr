@@ -144,6 +144,10 @@ Force Fieldのプロパティはここ
 
 ![img](./img/mesh_bridge_faces.png)
 
+変形をパラメタとして保持したいときはShape Keysを利用する
+
+<video src="./img/mesh_shape_keys.mp4" controls="true" width="600"></video>
+
 ### UV展開に関する情報
 
 割り当て方向の反転は`S -> X -> -1` or `S -> Y -> -1`などでできる
@@ -176,6 +180,10 @@ Node Wranglerの`Ctrl + Shift + T`で一括ノード追加
 ボーンの方向変更
 
 ![img](./img/born_axis_change.png)
+
+個別ボーンの回転はrollで設定
+
+![img](./img/born_indivisual_axis.png)
 
 ウェイトの確認
 
