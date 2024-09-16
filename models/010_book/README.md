@@ -48,12 +48,16 @@ fn main() {
 }
 ```
 
-| file | description |
-| :----- | :----- |
-| grimoire1.blend ||
-| grimoire2.blend ||
-| grimoire3.blend | 表紙、本身、各ページ + 本を開くアニメーション |
-| grimoire4.blend | 外観調整(マテリアル等) + 本身修正 |
+| file | description | Animation |
+| :----- | :----- | :----: |
+| grimoire1.blend || |
+| grimoire2.blend || |
+| grimoire3.blend | 表紙、本身、各ページ + 本を開くアニメーション | |
+| grimoire4.blend | 外観調整(マテリアル等) + 本身修正 | |
+| grimoire_open.blend | Animation: Close -> Open | [Animation](./imgs/gremoire_open.mp4) |
+| grimoire_opened.blend | Animation: Open -> Open | |
+| grimoire_next.blend | Animation: Open -> NextPage | [Animation](./imgs/grimoire_next.mp4) |
+| grimoire_prev.blend | Animation: Open -> PrevPage | [Animation](./imgs/grimoire_prev.mp4) |
 
 
 参考サイト
